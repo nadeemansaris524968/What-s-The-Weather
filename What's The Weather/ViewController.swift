@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         submitBTN.layer.cornerRadius = 5
         outputLBL.layer.masksToBounds = true
         outputLBL.layer.cornerRadius = 5
-        outputLBL.isHidden = true
+//        outputLBL.isHidden = true
         
         let url = URL(string: "http://www.weather-forecast.com/locations/London/forecasts/latest")
         let request = NSMutableURLRequest(url: url!)
@@ -42,7 +42,23 @@ class ViewController: UIViewController {
                 if Data != nil {
                     let unwrappedData = Data!
                     let dataString = NSString(data: unwrappedData, encoding: String.Encoding.utf8.rawValue)
-                    print(dataString!)
+                    
+                    let stringSeparator = "Weather Forecast Summary:</b><span class=\"read-more-small\"><span class=\"read-more-content\"> <span class=\"phrase\">"
+                    
+                    if (dataString?.components(separatedBy: stringSeparator)) != nil {
+                        
+                        let contentArray = dataString?.components(separatedBy: stringSeparator)
+                        
+                        if (contentArray?.count)! > 0 {
+                            
+                            let potentialOutput = contentArray![1]
+                            
+                            let finalOutput = potentialOutput.components(separatedBy: "</span>")[0]
+                            
+                            print(finalOutput)
+                        }
+                        
+                    }
                 }
             }
             
