@@ -12,6 +12,7 @@
 		6108728E1EB8C59C004B1453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6108728C1EB8C59C004B1453 /* Main.storyboard */; };
 		610872901EB8C59C004B1453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6108728F1EB8C59C004B1453 /* Assets.xcassets */; };
 		610872931EB8C59C004B1453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610872911EB8C59C004B1453 /* LaunchScreen.storyboard */; };
+		6108729B1EB8C64D004B1453 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6108729A1EB8C64D004B1453 /* back.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6108728F1EB8C59C004B1453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		610872921EB8C59C004B1453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		610872941EB8C59C004B1453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6108729A1EB8C64D004B1453 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				6108728C1EB8C59C004B1453 /* Main.storyboard */,
 				6108728F1EB8C59C004B1453 /* Assets.xcassets */,
 				610872911EB8C59C004B1453 /* LaunchScreen.storyboard */,
+				6108729A1EB8C64D004B1453 /* back.jpg */,
 				610872941EB8C59C004B1453 /* Info.plist */,
 			);
 			path = "What's The Weather";
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				610872931EB8C59C004B1453 /* LaunchScreen.storyboard in Resources */,
+				6108729B1EB8C64D004B1453 /* back.jpg in Resources */,
 				610872901EB8C59C004B1453 /* Assets.xcassets in Resources */,
 				6108728E1EB8C59C004B1453 /* Main.storyboard in Resources */,
 			);
