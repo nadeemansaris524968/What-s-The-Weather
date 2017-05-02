@@ -57,13 +57,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VYA-F9-yoe">
-                                <rect key="frame" x="35" y="236" width="250" height="125"/>
-                                <color key="backgroundColor" white="0.94999999999999996" alpha="0.91563050176056338" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="16" y="202" width="288" height="167"/>
+                                <color key="backgroundColor" white="1" alpha="0.72106073943661975" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="mGf-Mj-0uX"/>
-                                    <constraint firstAttribute="height" constant="125" id="sGZ-XT-XIZ"/>
+                                    <constraint firstAttribute="height" constant="167" id="68P-OY-vgA"/>
+                                    <constraint firstAttribute="width" constant="288" id="v59-To-AOT"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -77,15 +77,15 @@
                             <constraint firstItem="Pvg-aV-fWX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="19" id="EkO-K5-19v"/>
                             <constraint firstItem="Ohy-N2-QeT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IF3-cA-Z7A"/>
                             <constraint firstItem="Ohy-N2-QeT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="67" id="Mu2-gm-bpf"/>
+                            <constraint firstItem="VYA-F9-yoe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PFe-at-YIT"/>
                             <constraint firstItem="rMN-jp-liS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="RcB-D3-LuX"/>
                             <constraint firstItem="kqI-XG-xdL" firstAttribute="top" secondItem="Pvg-aV-fWX" secondAttribute="bottom" constant="8" id="UkF-dT-loY"/>
-                            <constraint firstItem="VYA-F9-yoe" firstAttribute="top" secondItem="kqI-XG-xdL" secondAttribute="bottom" constant="42" id="Uts-9e-2UI"/>
                             <constraint firstItem="kqI-XG-xdL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WVn-v7-bDq"/>
-                            <constraint firstItem="VYA-F9-yoe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z7K-VO-fVi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rMN-jp-liS" secondAttribute="trailing" constant="19" id="eXv-QX-9U3"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ohy-N2-QeT" secondAttribute="trailing" constant="67" id="gCp-cE-tm3"/>
                             <constraint firstItem="rMN-jp-liS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gpf-tA-qul"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Pvg-aV-fWX" secondAttribute="trailing" constant="19" id="lWM-df-FDv"/>
+                            <constraint firstItem="VYA-F9-yoe" firstAttribute="top" secondItem="kqI-XG-xdL" secondAttribute="bottom" constant="8" id="oE3-AJ-gmC"/>
                         </constraints>
                     </view>
                     <connections>
